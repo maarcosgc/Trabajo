@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 207}
-  m_SizeDelta: {x: 238.976, y: 115.311}
+  m_AnchoredPosition: {x: -36.8, y: 49.6}
+  m_SizeDelta: {x: 335.064, y: 120.869}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &355062449
 MonoBehaviour:
@@ -183,11 +183,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -412,7 +412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &847441392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -765,13 +765,14 @@ GameObject:
   - component: {fileID: 1779192594}
   - component: {fileID: 1779192593}
   - component: {fileID: 1779192592}
+  - component: {fileID: 1779192595}
   m_Layer: 0
   m_Name: New Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!102 &1779192592
 TextMesh:
   serializedVersion: 3
@@ -780,15 +781,15 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779192591}
-  m_Text: "Cuenta la leyenda que \nLa Tierra est\xE1 siendo \natacada por unas naves
-    \nextraterrestres con la\nintenci\xF3n de conquistar\nel planeta cueste lo que
-    \nles cueste. \nEsta civilaci\xF3n alien\xEDgena \nreside en Neptuno, un planeta\ndel
-    sistema solar, en la \nV\xEDa L\xE1ctea"
+  m_Text: "\xC9rase una vez en una\ngalaxia muy muy lejana,\ncerca de la V\xEDa L\xE1ctea,\nun
+    planeta llamado Ceres\nfue atacado por unas naves\nespaciales hostiles. \nEl
+    planeta tuvo que pedir \nayuda a la resistencia\ndel planeta Urus, el cual \nten\xEDa
+    mucho poder \narmament\xEDstico. \nEmpieza la battalla..."
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
-  m_Alignment: 0
+  m_Alignment: 1
   m_TabSize: 4
   m_FontSize: 0
   m_FontStyle: 0
@@ -845,13 +846,32 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779192591}
-  m_LocalRotation: {x: 0.5299192, y: 0, z: 0, w: 0.8480481}
-  m_LocalPosition: {x: -32.5, y: 12.4, z: 89.2}
+  m_LocalRotation: {x: 0.45399043, y: 0, z: 0, w: 0.8910066}
+  m_LocalPosition: {x: -36.8, y: 12.4, z: 89.2}
   m_LocalScale: {x: 4.745361, y: 3.8611207, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 64, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 54, y: 0, z: 0}
+--- !u!95 &1779192595
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779192591}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6feed54041771c7429a434feace36d18, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1788743161
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,7 +890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1788743162
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -505,7 +505,7 @@ GameObject:
   - component: {fileID: 1788743163}
   - component: {fileID: 1788743162}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Intro Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -672,7 +672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2927657435400460691, guid: 04e4415a6d3a7d040981eebc1a361dd2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 499.41
+      value: 449.31
       objectReference: {fileID: 0}
     - target: {fileID: 2927657435400460691, guid: 04e4415a6d3a7d040981eebc1a361dd2, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -680,7 +680,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2927657435400460691, guid: 04e4415a6d3a7d040981eebc1a361dd2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00086832047
+      value: -0.00025845
       objectReference: {fileID: 0}
     - target: {fileID: 2927657437111563128, guid: 04e4415a6d3a7d040981eebc1a361dd2, type: 3}
       propertyPath: m_Name

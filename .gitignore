@@ -35,3 +35,12 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.log
+SpaceInvaders/Logs/shadercompiler-UnityShaderCompiler.exe2.log
+SpaceInvaders/Logs/shadercompiler-UnityShaderCompiler.exe1.log
+SpaceInvaders/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+SpaceInvaders/Library/SourceAssetDB
+SpaceInvaders/Library/ArtifactDB
+*.log
+SpaceInvaders/Library/SourceAssetDB
+SpaceInvaders/Library/ArtifactDB
